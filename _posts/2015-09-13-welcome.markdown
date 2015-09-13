@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome!"
 date:   2015-09-13 17:44:00
-categories: blog homepage site welcome
+categories:
 tags: regular
 image: /assets/article_images/2015-09-13-welcome/dublin1.jpg
 ---

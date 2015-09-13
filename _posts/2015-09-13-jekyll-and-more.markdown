@@ -2,7 +2,7 @@
 layout: post
 title:  "Jekyll and more"
 date:   2015-09-13 19:23:00
-categories: blog homepage site jekyll theme mediator github vagrant puppet
+categories: jekyll theme github vagrant puppet
 tags: regular
 ---
  
