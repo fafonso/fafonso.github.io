@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Welcome!"
+date:   2015-09-13 17:44:00
+categories: blog homepage site welcome
+tags: regular
+image: /assets/article_images/2015-09-13-welcome/dublin1.jpg
+---
+ 
+Finally, after something like 9 years of IT experience, I've decided to create my personal page to share some interesting bits and thoughts.
+
+So, here it is my first blog post and hopefully many more will follow.
+
+Stay tuned and see you soon!
+

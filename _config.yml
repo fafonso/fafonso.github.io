@@ -1,0 +1,86 @@
+# Build settings
+markdown: redcarpet
+highlighter: pygments
+gems:
+  - jemoji
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed #:expanded or you might prefer to minify using :compressed
+
+# Exclude these files from your production _site
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+    - CNAME
+    - Vagrantfile
+    - /modules
+    - /manifest
+    - /artifacts
+  
+# Site settings
+title: "Filipe Afonso"
+description: > # this means to ignore newlines until "email:"
+   
+
+email: filipenuno@gmail.com
+#blog logo
+logo: "/assets/images/fa_logo.jpg"
+# blog cover
+cover: "/assets/images/background1.jpg"
+
+name: 'Filipe Afonso'
+author: 'Filipe Afonso'
+author_image: "/assets/images/author.jpg"
+
+paginate:	5
+
+url: "http://www.fafonso.com" # the base hostname & protocol for your site
+baseurl: ""
+
+#fill in disqus shortname to use disqus
+#disqus: disqus-shortname
+
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: UA-65629443-1
+
+# social icons and sharing options
+social:
+
+  - icon: linkedin
+    url:  https://ie.linkedin.com/in/filipeafonso
+    desc: Check my profile on linkedin
+    share_url: http://www.linkedin.com/shareArticle?mini=true
+    share_title: "&amp;title=" 
+    share_link: "&amp;url="
+
+  - icon:	twitter
+    url:	https://twitter.com/FilipeAfonso
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: https://www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+  - icon:	github
+    url:	https://github.com/fafonso
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
