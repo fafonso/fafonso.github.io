@@ -4,6 +4,7 @@ highlighter: pygments
 gems:
   - jemoji
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-paginate
 
 # Set the Sass partials directory, as we're using @imports
 sass:
