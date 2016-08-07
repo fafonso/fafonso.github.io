@@ -1,5 +1,5 @@
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 gems:
   - jemoji
@@ -78,6 +78,13 @@ social:
   - icon:	github
     url:	https://github.com/fafonso
     desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+  - icon: stack-overflow
+    url:  http://stackoverflow.com/users/6483616/fafonso
+    desc: Check my stack overflow profile
     share_url:
     share_title:
     share_link:
