@@ -8,7 +8,7 @@ tags: regular
 
 If you are trying to get your cluster to work over unicast, if you are using PostgreSQL as database and if you are trying to figure it out the right configurations to use, look no more, you arrived to the right place!
 
-As you should know, JGroups offers you several options for cluster members discovery, some good examples are TCP_Ping, S3_Ping, File_Ping and JDBC_Ping. Not going to deep on why choosing one option over the other, one thing you should keep in mind is the dynamic aspect of this process. Usually, you want to be able to add or remove cluster nodes dynamically without having to change any configurations on your system, and to achieve that, you can use any of the last three options (TCP_Ping is more static in the sense that you will need to specify the hosts of all your cluster members).
+As you probably already know, JGroups offers you several options for cluster members discovery, some good examples are TCP_Ping, S3_Ping, File_Ping and JDBC_Ping. Not going to deep on why choosing one option over the other, one thing you should keep in mind is the dynamic aspect of this process. Usually, you want to be able to add or remove cluster nodes dynamically without having to change any configurations on your system, and to achieve that, you can use any of the last three options (TCP_Ping is more static in the sense that you will need to specify the hosts of all your cluster members).
 
 As [JDBC_Ping](http://www.jgroups.org/manual/html/protlist.html#d0e5196) is a good option to use for discovery and I recently needed to configure it with PostgreSQL DB, and also didn't find anything on the web about the required configuration with the specifics for this database engine, I thought it could be useful to leave here the end result of it.
 
@@ -32,6 +32,6 @@ What you will need to do is to add this JDBC_Ping configuration section to your 
        select_all_pingdata_sql="SELECT ping_data FROM JGROUPSPING WHERE cluster_name=?" />
 
 
-And you should be ready to go! you can find more about JDBC_Ping configuration [here](https://developer.jboss.org/wiki/JDBCPING?_sscc=t) (Example: how to use datasource instead of connection url).
+And hopefully, you are ready to go! you can find more about JDBC_Ping configuration [here](https://developer.jboss.org/wiki/JDBCPING?_sscc=t) (Example: how to use datasource instead of connection url).
 
 
