@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JDBC Ping Configuration for PostgreSQL"
-date:   2016-08-07 17:40:00
+date:   2016-08-07 10:00:00
 categories: jgroups unicast postgresql jdbc ping cluster
 tags: regular
 ---
