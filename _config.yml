@@ -1,6 +1,6 @@
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 gems:
   - jemoji
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
