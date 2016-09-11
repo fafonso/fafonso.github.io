@@ -19,4 +19,4 @@ Some of the major changes for this new version are:
 - Apache2 with configuration for compression;
 - Several minor bugfixes and improvements.
 
-As a final note, if by any chance you will be by Bratislava (19th October) or Prague (20th October) and you want to learn more about Liferay DXP, you can't miss [this event](http://www.mimacom.sk/liferay-dxp-cee#webinars). I'll be one of the speakers and we'll be showing the great potential of Liferay DXP. I hope to see you there!
+As a final note, if by any chance you will be by **Bratislava (19th October) or Prague (20th October)** and you want to **learn more about Liferay DXP**, you can't miss **[this event](http://www.mimacom.sk/liferay-dxp-cee#webinars)**. I'll be one of the speakers and we'll be showing the great potential of Liferay DXP. I hope to see you there!
