@@ -11,9 +11,9 @@ I know it has been a long time since my last blog post, but the truth is that it
 
 Anyway, now everything is settling down and getting back to normality, and as so, I'm hoping to have time to share with you some cool ideas that I've been cooking, as I'm doing some experiments with **Liferay + WeDeploy + AI + OCR**.
 
-In the mean while, let me share with you some of the work that I've been doing throughout this year.
+In the meanwhile, let me share with you some of the work that I've been doing throughout this year.
 
-1) I've done a **webinar series about Liferay DXP**, covering topics like Mobile first approach, cloud, dockers, intranets and upgrades. You can find these webinars here:
+1) I've done a **webinar series about Liferay DXP**, covering topics like cloud, dockers, mobile first approach, intranets and upgrades. You can find these webinars here:
 - [Webinar 1](https://www.liferay.com/events?marketingEventId=231606513)
 - [Webinar 2](https://www.liferay.com/events?marketingEventId=231606515)
 - [Webinar 3](https://www.liferay.com/events?marketingEventId=231606516)
